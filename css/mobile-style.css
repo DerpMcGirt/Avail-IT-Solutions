@@ -1,0 +1,55 @@
+@media screen and (max-width: 800px) {
+  .spacer-medium {
+    height: 150px;
+  }
+
+  .card {
+    /*background-image: none;*/
+    min-width: 200px;
+    background-image: radial-gradient(circle at top center, var(--primary) 45%, transparent 25%, transparent);
+    /* margin: auto; */
+    background-position-x: center;
+  }
+
+  h1#name {
+    font-size: 2.3em;
+    font-family: fontEleven, Arial, sans-serif;
+  }
+
+  h2#company {
+    font-family: fontNine, Arial, sans-serif;
+    font-size: 2em;
+    animation: pulse 1.2s ease-in forwards;
+  }
+
+  .img-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin:  0 auto;
+  }
+
+  img.portrait {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin:  0 auto;
+  }
+
+  p.summary {
+    margin: 2em auto;
+  }
+
+  section#contact-details {
+    margin: auto auto;
+    transform: translate(0, 50%);
+    padding: 5em;
+  }
+
+  section#skills {
+    margin: auto auto;
+    padding: 5em;
+  }
+}
