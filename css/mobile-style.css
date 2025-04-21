@@ -12,7 +12,7 @@
   }
 
   h1#name {
-    font-size: 2.3em;
+    font-size: 3em;
     font-family: fontEleven, Arial, sans-serif;
   }
 
@@ -43,13 +43,17 @@
   }
 
   section#contact-details {
-    margin: auto auto;
+    margin: 1em auto;
     transform: translate(0, 50%);
     padding: 5em;
   }
 
   section#skills {
-    margin: auto auto;
-    padding: 5em;
+    /*margin: auto;*/
+    padding: 15em 0;
+  }
+
+  ul.technologies {
+    padding-inline-start: 0;
   }
 }

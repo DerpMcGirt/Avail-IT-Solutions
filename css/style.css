@@ -252,10 +252,10 @@ svg#icon-email {
 
 ul.technologies {
   list-style: none;
-  padding: 1em 1em;
+  padding-inline-start: 0;
   margin: 1.3em 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   gap: 12px;
   flex-wrap: wrap;
 }
